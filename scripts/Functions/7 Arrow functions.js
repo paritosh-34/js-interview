@@ -28,7 +28,7 @@ const fnArrow = () => {
 //
 // 4. "this" keyword
 let user = {
-  username: "testing 123",
+  username: "Paritosh Batish",
   rc1: () => {
     console.log("I am " + this.username); // this points to the global object
   },
@@ -38,4 +38,4 @@ let user = {
 };
 
 user.rc1(); // "I am undefined"
-user.rc2(); // "I am testing 123"
+user.rc2(); // "I am Paritosh Batish"

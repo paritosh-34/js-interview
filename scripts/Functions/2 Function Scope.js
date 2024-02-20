@@ -1,6 +1,6 @@
 var num1 = 20,
   num2 = 3,
-  name = "Test";
+  name = "Paritosh";
 
 function multiply() {
   return num1 * num2;
@@ -20,4 +20,4 @@ function getScore() {
   return add();
 }
 
-getScore(); // Returns "Test scored 5"
+getScore(); // Returns "Paritosh scored 5"
