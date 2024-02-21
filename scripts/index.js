@@ -1,6 +1,5 @@
 function func1() {
   const collback = () => {
-    debugger;
     console.log(x);
     console.log(y);
   };
